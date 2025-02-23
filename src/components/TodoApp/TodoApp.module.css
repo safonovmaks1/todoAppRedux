@@ -1,0 +1,84 @@
+.todo {
+	margin-inline: auto;
+	padding: 1.5rem;
+	max-width: 40rem;
+	background-color: #fff;
+	border-radius: var(--border-radius-md);
+	box-shadow: 0 1px 8px var(--shadow);
+}
+
+.grid {
+	display: grid;
+	gap: 1rem;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+
+	gap: 0.5rem;
+}
+
+.mrAuto {
+	margin-right: auto;
+}
+
+.btnAdd {
+	--hue: 174;
+	background-color: hsl(var(--hue), 60%, 40%);
+}
+
+.btnAdd:hover {
+	background-color: hsl(var(--hue), 60%, 30%);
+}
+
+.btnSort {
+	--hue: 197;
+	background-color: hsl(var(--hue), 60%, 40%);
+}
+
+.btnSort:hover {
+	background-color: hsl(var(--hue), 60%, 30%);
+}
+
+.btnSearch {
+	--hue: 70;
+	background-color: hsl(var(--hue), 60%, 40%);
+}
+
+.btnSearch:hover {
+	background-color: hsl(var(--hue), 60%, 30%);
+}
+
+.btnDelete {
+	--hue: 0;
+	background-color: hsl(var(--hue), 60%, 40%);
+}
+
+.btnDelete:hover {
+	background-color: hsl(var(--hue), 60%, 30%);
+}
+
+.btnReset {
+	--hue: 20;
+	background-color: hsl(var(--hue), 60%, 40%);
+}
+
+.btnReset:hover {
+	background-color: hsl(var(--hue), 60%, 30%);
+}
+
+.todoItem {
+	display: flex;
+	align-items: flex-start;
+	gap: 1rem;
+
+	padding: 0.5rem;
+	background-color: var(--first-color-light);
+	border: 1px solid var(--first-color);
+	border-radius: var(--border-radius-sm);
+}
+
+.text {
+	text-align: justify;
+}
