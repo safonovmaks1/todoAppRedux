@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { deleteTodo, fetchTodos, updateTodo } from '../../../../store/actions';
-import { selectTodos } from '../../../../store/selectors';
+import { deleteTodo, fetchTodos, updateTodo } from '../../../../actions';
+import { selectTodos } from '../../../../selectors';
 import styles from '../../TodoApp.module.css';
 
 export const TodoList = () => {
